@@ -1,16 +1,16 @@
 # Ignorer le dossier vendor (si vous utilisez Composer)
 /vendor/
 
-# Ignorer les fichiers d'environnement (si vous en avez un pour vos configs DB, etc.)
+# Ignorer les fichiers d'environnement (très important pour les infos sensibles)
 .env
 .env.local
 
-# Ignorer les fichiers temporaires/de cache
+# Ignorer les fichiers temporaires/de cache et les logs
 *.log
 *.tmp
 /cache/
 /logs/
 
-# Ignorer les fichiers spécifiques à l'IDE (ex: PhpStorm/IntelliJ)
+# Ignorer les fichiers spécifiques à l'IDE (ex: PhpStorm/IntelliJ IDEA)
 .idea/
 .DS_Store
